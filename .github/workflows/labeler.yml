@@ -1,0 +1,7 @@
+- name: Labeler
+  uses: actions/labeler@v7.0.0
+  with:
+    # The GitHub token used to manage labels
+    repo-token: # optional, default is ${{ github.token }}
+    # The path for the label configurations
+    configuration-path: .github/labeler.yml
